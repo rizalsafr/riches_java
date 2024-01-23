@@ -74,10 +74,10 @@ jobs:
         env:
           FOD_URL: "https://apac.fortify.com/"
           FOD_API_URL: "https://api.apac.fortify.com/"
-          FOD_TENANT: ${{ secrets.FOD_TENANT }}
-          FOD_USER: ${{ secrets.FOD_USER }}
-          FOD_PAT: ${{ secrets.FOD_PAT }}
-          FOD_RELEASE_ID: ${{ secrets.FOD_RELEASE_ID }}
+          FOD_TENANT: mii_pov
+          FOD_USER: rizals
+          FOD_PAT: TkdoajJ5SEEueHplbXAzYjZCSUM7bD81N0FhTlN00
+          FOD_RELEASE_ID: 7809
           FOD_UPLOADER_OPTS: "-ep 2 -pp 2 -I 0 -apf"
           FOD_UPLOADER_NOTES: 'Triggered by GitHub Actions (${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})'
 
