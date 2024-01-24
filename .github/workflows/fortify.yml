@@ -87,7 +87,7 @@ jobs:
         with:
           fod_base_url: "https://apac.fortify.com/"
           fod_tenant: mii_pov
-          fod_user: rizalsa
+          fod_user: rizals
           fod_password: P@ssw0rd2023!1
           fod_release_id: 7809
 
